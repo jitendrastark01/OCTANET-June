@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+ header {
+    background:url('https://media.istockphoto.com/id/1212912291/photo/3d-modern-abstract-background-stock-photo.jpg?s=2048x2048&w=is&k=20&c=r4cQ08q6KNePKU3pc95MaxzZgc5ZbJAtll2oc55l_k4='); 
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+} 
+.header-content {
+    margin-top: 60px;
+}
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition:0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.btn.primary {
+    background: #fff;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+.btn.primary:hover {
+    background: #ddd;
+}
+
+.btn.secondary {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+.btn.secondary:hover {
+    background: #45a049;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.features{
+background: url(https://smartblogger.com/wp-content/uploads/2020/01/writing-quotes.jpg);
+    
+}
+
+.testimonials{
+    background: url(https://i.pinimg.com/236x/22/f3/0c/22f30c1c06c893fe0ab014fb2d8dc14a.jpg);
+}
+  
+
+.features, .testimonials, .cta {
+   
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2, .testimonials h2, .cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature, .testimonial {
+    margin: 20px 0;
+}
+
+.feature h3, .testimonial h4 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.feature p, .testimonial p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.cta form input[type="email"] {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.cta form button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta form button:hover {
+    background: #45a049;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
